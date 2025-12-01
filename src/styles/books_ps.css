@@ -1,0 +1,65 @@
+/* Books */
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.book-card {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 16px;
+  border: 1px solid #1f2937;
+  padding: 14px 16px;
+  font-size: 0.9rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.7);
+}
+
+/* PS Stats */
+
+.ps-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.stat-card {
+  min-width: 160px;
+  background: radial-gradient(
+    circle at top left,
+    #38bdf8 0,
+    #0b1120 45%,
+    #020617 100%
+  );
+  border-radius: 14px;
+  padding: 10px 14px;
+  border: 1px solid #1f2937;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #cbd5f5;
+}
+
+.stat-value {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.ps-outro {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #d1d5db;
+}
+
+/* Awards */
+
+.award-list {
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+.award-list li + li {
+  margin-top: 4px;
+}

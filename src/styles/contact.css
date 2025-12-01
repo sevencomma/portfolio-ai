@@ -1,0 +1,29 @@
+.contact-page ul {
+  list-style: none;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.contact-page li + li {
+  margin-top: 4px;
+}
+
+.contact-page a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.contact-page a:hover {
+  text-decoration: underline;
+}
+
+.contact-note {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #d1d5db;
+}
+
+.contact-note.small {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}

@@ -1,0 +1,96 @@
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 2fr);
+  gap: 24px;
+}
+
+/* 아바타 */
+
+.about-avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.about-avatar-placeholder {
+  width: 160px;
+  height: 160px;
+  border-radius: 999px;
+  border: 1px solid #1f2937;
+  background: radial-gradient(circle at top, #38bdf8 0, #0b1120 50%, #020617 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+/* 기본 정보 카드 */
+
+.about-basic {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 16px;
+  border: 1px solid #1f2937;
+  padding: 16px 18px;
+}
+
+.about-basic ul {
+  list-style: none;
+  font-size: 0.95rem;
+}
+
+.about-basic li + li {
+  margin-top: 6px;
+}
+
+/* 성격/가치관 카드 */
+
+.about-text {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.95),
+    rgba(15, 23, 42, 0.75)
+  );
+  border-radius: 16px;
+  border: 1px solid #1f2937;
+  padding: 16px 18px;
+}
+
+.about-text h3 {
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.about-text p {
+  font-size: 0.93rem;
+  color: #d1d5db;
+}
+
+/* Tastes */
+
+.tastes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+.taste-card {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 16px;
+  border: 1px solid #1f2937;
+  padding: 14px 16px;
+  font-size: 0.9rem;
+}
+
+.taste-icon {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+
+.about-avatar-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 999px;
+  border: 2px solid #1f2937;
+  object-fit: cover;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.9);
+}

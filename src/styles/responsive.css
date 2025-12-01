@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .about-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .app-main {
+    padding-top: 80px;
+  }
+
+  .modal-body {
+    grid-template-columns: 1fr;
+  }
+}
